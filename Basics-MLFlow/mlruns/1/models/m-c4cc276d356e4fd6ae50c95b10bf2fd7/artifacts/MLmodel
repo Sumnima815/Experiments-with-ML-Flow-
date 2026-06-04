@@ -1,0 +1,23 @@
+artifact_path: /home/sumnima/Documents/vertex/vertex_projects/MLOps/Basics-MLFlow/mlruns/1/models/m-c4cc276d356e4fd6ae50c95b10bf2fd7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-c4cc276d356e4fd6ae50c95b10bf2fd7
+model_size_bytes: 21749
+model_uuid: m-c4cc276d356e4fd6ae50c95b10bf2fd7
+prompts: null
+run_id: 8beb47380e7741ca983d5710ccf1397b
+utc_time_created: '2026-06-03 05:57:47.368065'
